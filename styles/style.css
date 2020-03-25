@@ -5,6 +5,10 @@ body {
     width: 100%;
     margin: 0px;
 }
+main {
+    width: 100%;
+    margin: 0px;
+}
 #welcome-section {
     border: 1px solid blue;
     height: 100vh;
@@ -26,6 +30,17 @@ body {
     flex-flow: row wrap;
     justify-content: flex-end;
     padding-right: 5px;
+}
+#projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.tile {
+    border: 1px dotted green;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
 }
 @media {
     /* 1. My portfolio should have at least one media query. */
