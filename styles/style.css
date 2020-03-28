@@ -6,16 +6,17 @@ body {
     margin: 0px;
 }
 main {
-    border: 1px dotted green;
     width: 100%;
     margin: 0px;
+    background-color: rgb(50, 150, 256);
     text-align: center;
+    padding-bottom: 10px;
 }
 #welcome-section {
-    border: 1px solid blue;
     height: 100vh;
     width: 100%;
     margin: 10px, 0px, 10px, 0px;
+    background-color: rgba(100, 100, 100, 0.7);
     text-align: center;
     display: flex;
     flex-flow: column wrap;
@@ -23,7 +24,7 @@ main {
 }
 #navbar {
     border: 1px dotted red;
-    background-color: rgba(256, 256, 256, 1);
+    background-color: rgba(256, 256, 256, 0.98);
     height: 50px;
     position: fixed;
     top: 0;
@@ -42,20 +43,28 @@ main {
 }
 .tile {
     box-shadow: 3px 3px 5px black;
+    border-radius: 3px;
     min-height: 300px;
     text-align: center;
-    background-color: grey;
+    background-color: rgba(100, 100, 100, 0.7);
 }
 .project-img {
     width: 100%;
     height: auto;
 }
 .link-button {
-    border: 3px solid yellow;
+    border: 3px solid orange;
     border-radius: 5px;
-    background-color: grey;
-    padding: 10px;
-
+    background-color: rgba(150, 150, 150, 0.7);
+    width: 100px;
+    height: 40px;
+    margin: 10px auto 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    margin-top: 15px;
 }
 @media (min-width: 0px) {
     #projects {
