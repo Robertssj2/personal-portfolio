@@ -53,7 +53,7 @@ main {
     height: auto;
 }
 #profile-link {
-    border: 3px solid orange;
+    border: 3px solid darkorange;
     border-radius: 5px;
     background-color: rgba(150, 150, 150, 0.7);
     width: 100px;
@@ -65,6 +65,10 @@ main {
 }
 footer {
     margin-top: 15px;
+    text-align: center;
+    background-color: rgb(50, 150, 256);
+    padding: 10px;
+    margin: 0px;
 }
 @media (min-width: 0px) {
     #projects {
